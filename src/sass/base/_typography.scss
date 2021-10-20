@@ -1,0 +1,78 @@
+/**
+ * Typography
+ * -----------------------------------------------------------------------------
+ * Styles for displaying content with some of the most commonly used HTML elements,
+ * including normalization, typography, images, tables, and more.
+ *
+ */
+@import '../config/typography';
+@import '../config/colors';
+@import '../config/mq';
+
+
+.headline {
+    position: relative;
+    font-family: $FONT_STACK;
+    font-size: 20px;
+    font-weight: $WEIGHT_SEMIBOLD;
+    line-height: 24px;
+    text-transform: small;
+    margin-bottom: 24px;
+    color: $COLOR_HEADLINE;
+    z-index: 5;
+}
+
+.inverse-headline {
+    color: $COLOR_HEADLINE_INVERSE;
+}
+
+.body {
+    font-family: $FONT_STACK;
+    font-weight: $WEIGHT_MEDIUM;
+    font-size: 13px;
+    line-height: 18px;
+    color: $COLOR_BODY;
+    opacity: 0.7;
+    
+}
+
+.inverse-body {
+    color: $COLOR_BODY_INVERSE;
+}
+
+.name {
+    font-family: $FONT_STACK;
+    font-weight: $WEIGHT_MEDIUM;
+    font-size: 13px;
+    line-height: 13px;
+    color: $COLOR_NAME;
+}
+
+.inverse-name {
+    color: $COLOR_NAME_INVERSE
+}
+
+.account {
+    font-family: $FONT_STACK;
+    font-weight: $WEIGHT_MEDIUM;
+    font-size: 11px;
+    line-height: 11px;
+    color: $COLOR_BODY;
+}
+
+/**
+* Text alignment
+* ==================================
+*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
