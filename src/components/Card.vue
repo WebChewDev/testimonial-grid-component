@@ -54,6 +54,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   position: relative;
+
   border-radius: 8px;
   padding: 26px 32px 32px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
@@ -61,11 +62,17 @@ export default {
 
   &__bg-image {
     position: absolute;
-    width: 104px;
-    height: 102px;
-    left: 369px;
-    top: 1px;
-    z-index: 1;
+    top: 0;
+    right: 23px;
+
+    @include mq($from: desktop) {
+      position: absolute;
+      width: 104px;
+      height: 102px;
+      left: 369px;
+      top: 1px;
+      z-index: 1;
+    }
   }
 }
 

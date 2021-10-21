@@ -30,6 +30,7 @@ export default {
   row-gap: 24px;
   width: 327px;
   min-height: 1824px;
+  margin: 0 auto;
 
   @include mq($from: desktop) {
     display: grid;
