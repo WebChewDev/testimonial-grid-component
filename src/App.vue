@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div role="application">
     <Grid />
     <Attribution />
   </div>
