@@ -18,12 +18,12 @@
       :inverse="item.styles.inverse_text"
       :border="item.styles.border_avatar"
     />
-    <h1
+    <h3
       class="headline"
       :class="{ 'inverse-headline': item.styles.inverse_text }"
     >
       {{ item.headline }}
-    </h1>
+    </h3>
     <p class="body" :class="{ 'inverse-body': item.styles.inverse_text }">
       {{ item.body }}
     </p>
